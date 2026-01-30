@@ -1,0 +1,44 @@
+{
+  "name": "gh-cart",
+  "version": "0.1.0",
+  "description": "Shop your pull requests. Keep what you need.",
+  "type": "module",
+  "bin": {
+    "gh-cart": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "ink": "^5.1.0",
+    "ink-select-input": "^6.0.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "meow": "^13.0.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "github",
+    "pull-request",
+    "cli",
+    "gh-extension",
+    "developer-tools"
+  ],
+  "author": "Ani Potts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anipotts/gh-cart.git"
+  }
+}

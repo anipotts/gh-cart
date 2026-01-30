@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+.claude/
+package-lock.json
+
+# Build output is committed for gh extension installs
+# dist/
