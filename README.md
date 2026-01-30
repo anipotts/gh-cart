@@ -1,6 +1,6 @@
 # gh cart
 
-> Cherry-pick files from pull requests.
+> Shop through your pull requests. Buy (commit) what you need.
 
 A [gh extension](https://cli.github.com/manual/gh_extension) that lets you selectively apply files from a PR to your local branch.
 
@@ -10,15 +10,23 @@ A [gh extension](https://cli.github.com/manual/gh_extension) that lets you selec
 gh extension install anipotts/gh-cart
 ```
 
-## Usage
+## Quick Start
 
 ```bash
-gh cart              # List open PRs, pick one, select files
+cd your-repo
+gh cart
+```
+
+That's it. `gh cart` auto-detects the current repo, lists open PRs, and lets you pick which files to apply.
+
+## Other Ways to Open a PR
+
+```bash
 gh cart 142          # Open PR #142 directly
 gh cart <url>        # Open a PR by full GitHub URL
 ```
 
-### Interactive Mode
+## Interactive Mode
 
 ```
 PR #142: feat: add dark mode support
@@ -52,9 +60,9 @@ After selecting files, choose how to apply them:
 
 ## Why?
 
-AI tools generate massive PRs. You want some of it, not all of it.
+AI tools generate massive PRs. You don't want all of it — just the good parts.
 
-`gh cart` lets you pick exactly which files to keep.
+`gh cart` lets you shop through the changes and commit only what you need.
 
 ## Requirements
 

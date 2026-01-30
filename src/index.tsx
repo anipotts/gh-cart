@@ -6,9 +6,13 @@ import { App } from './app.js';
 const cli = meow(
   `
   Usage
-    $ gh cart                    List open PRs, pick one, shop files
+    $ gh cart                    Auto-detect repo, list open PRs, pick files
     $ gh cart <number>           Open a specific PR by number
-    $ gh cart <url>              Open a PR by GitHub URL
+    $ gh cart <url>              Open a PR by full GitHub URL
+
+  Quick Start
+    $ cd your-repo
+    $ gh cart
 
   Examples
     $ gh cart

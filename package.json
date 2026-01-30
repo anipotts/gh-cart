@@ -1,7 +1,7 @@
 {
   "name": "gh-cart",
   "version": "0.1.0",
-  "description": "Shop your pull requests. Keep what you need.",
+  "description": "Shop through your pull requests. Buy (commit) what you need.",
   "type": "module",
   "bin": {
     "gh-cart": "./dist/index.js"
